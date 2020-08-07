@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>js events</title>
+	</head>
+	<body>
+		<script language="javascript" type="text/javascript">
+			function OnImg()
+			{
+				document.body.style.background="red"
+
+			}
+
+			function OutImg()
+			{
+				document.body.style.background="black"
+
+			}
+
+			function redirect()
+			{
+				location.replace("https://cms.cb.amrita.edu")
+
+			}	
+		</script>
+		<img onmouseover="OnImg()" onmouseout="OutImg()" onclick="redirect()" src="amrita.png" >
+	</body>
+</html>
